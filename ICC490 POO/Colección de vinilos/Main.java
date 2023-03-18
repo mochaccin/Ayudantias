@@ -1,9 +1,9 @@
 package org.example;
 
 public class Main {
+    
     public static void main(String[] args) {
-
-
+        
         String[][] vinilos = new String[100][3];
 
         agregarVinilo(vinilos, "Iron Maiden", "Iron Maiden", "1980");
