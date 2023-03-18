@@ -1,4 +1,4 @@
-# Presentacion de la problematica
+## Problematica
 
 ```Ante el nuevo aire que parece estar tomando el formato físico de la música en discos de vinilo, aumentan también los coleccionistas del formato.
 Suponga que debe crear un mantenedor para un coleccionista de vinilos, para lo cual debe como mínimo considerar que:
