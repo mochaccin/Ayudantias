@@ -23,7 +23,7 @@ Presentado el esquema guia de como deberia quedar su codigo para responder a las
 ## Analisis de mi solución
 
 ### totalVinilos
-Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cual representa la coleccion de vinilos, y procedemos a recorrer cada elemento de la coleccion, sabemos que cada vinilo contiene 3 datos, el nombre del artista, el nombre del album, y el año de lanzamiento, por lo cual podemos comparar si estos datos son distintos de null, para saber si existe un vinilo en esta posicion o no, en caso de ser **distinto de null**, incrementamos el contador, y al terminar el ciclo devolvemos este contador como representante de la cantidad de vinilos en nuestra coleccion.
+Le entregamos un `Array` de 2 dimensiones de tipo `String` a nuestra funcion, el cual representa la coleccion de vinilos, y procedemos a recorrer cada elemento de la coleccion, sabemos que cada vinilo contiene 3 datos, el nombre del artista, el nombre del album, y el año de lanzamiento, por lo cual podemos comparar si estos datos son distintos de `null`, para saber si existe un vinilo en esta posicion o no, en caso de ser **distinto de `null`**, incrementamos el contador, y al terminar el ciclo devolvemos este contador como representante de la cantidad de vinilos en nuestra coleccion.
 ```
     public static int totalVinilos(String[][] vinilos) {
 
@@ -39,7 +39,7 @@ Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cua
 ```
 
 ### disponibles
-Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cual representa la coleccion de vinilos, y procedemos a recorrer cada elemento de la coleccion, sabemos que cada vinilo contiene 3 datos, el nombre del artista, el nombre del album, y el año de lanzamiento, por lo cual podemos comparar si estos datos son distintos de null, para saber si existe un vinilo en esta posicion o no, en caso de ser **igual a null**, incrementamos el contador, y al terminar el ciclo devolvemos este contador como representante de la cantidad de espacios disponibles en nuestra coleccion.
+Le entregamos un `Array` de 2 dimensiones de tipo `String` a nuestra funcion, el cual representa la coleccion de vinilos, y procedemos a recorrer cada elemento de la coleccion, sabemos que cada vinilo contiene 3 datos, el nombre del artista, el nombre del album, y el año de lanzamiento, por lo cual podemos comparar si estos datos son distintos de `null`, para saber si existe un vinilo en esta posicion o no, en caso de ser **igual a `null`**, incrementamos el contador, y al terminar el ciclo devolvemos este contador como representante de la cantidad de espacios disponibles en nuestra coleccion.
 ```
     public static int disponibles(String[][] vinilos) {
 
@@ -53,7 +53,7 @@ Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cua
 ```
 
 ### agregarVinilo
-Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cual representa la coleccion de vinilos, tambien le entregamos 3 datos de tipo String, los cuales representan el nombre del artista, el nombre del album, y el año de lanzamiento del vinilo. Lo primero es recorrer la coleccion, encontramos la primera posicion en la cual los datos son iguales a null, debido a que esto representa que no hay un vinilo en esa posicion, y procedemos a ingresar los datos del vinilo en sus posiciones correspondientes.
+Le entregamos un `Array` de 2 dimensiones de tipo `String` a nuestra funcion, el cual representa la coleccion de vinilos, tambien le entregamos 3 datos de tipo `String`, los cuales representan el nombre del artista, el nombre del album, y el año de lanzamiento del vinilo. Lo primero es recorrer la coleccion, encontramos la primera posicion en la cual los datos son iguales a `null`, debido a que esto representa que no hay un vinilo en esa posicion, y procedemos a ingresar los datos del vinilo en sus posiciones correspondientes.
 ```
     public static void agregarVinilo(String[][] vinilos, String artista, String album, String lanzamiento) {
 
@@ -69,7 +69,7 @@ Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cua
 ```
 
 ### buscarArtista
-Le entregamos un Array de 2 dimensiones de tipo `String` a nuestra funcion, el cual representa la coleccion de vinilos, tambien le entregamos un valor de tipo `String` que representa el nombre del artista que deseamos buscar. Sabemos que cada vinilo posee 3 datos, y sabemos que entre estos datos se encuentre el nombre del artista del vinilo, tambien sabemos en que posicion se encuentra, por lo cual simplemente recorremos la coleccion, comparando el nombre del artista a buscar, con el nombre del artista de cada vinilo. En el caso de que se encuentre en la coleccion devolvemos `True`, en caso contrario al final del ciclo devolvemos `False`.
+Le entregamos un `Array` de 2 dimensiones de tipo `String` a nuestra funcion, el cual representa la coleccion de vinilos, tambien le entregamos un valor de tipo `String` que representa el nombre del artista que deseamos buscar. Sabemos que cada vinilo posee 3 datos, y sabemos que entre estos datos se encuentre el nombre del artista del vinilo, tambien sabemos en que posicion se encuentra, por lo cual simplemente recorremos la coleccion, comparando el nombre del artista a buscar, con el nombre del artista de cada vinilo. En el caso de que se encuentre en la coleccion devolvemos `True`, en caso contrario, al final del ciclo devolvemos `False`.
 ```
     public static boolean buscarArtista(String[][] vinilos, String artista){
 
