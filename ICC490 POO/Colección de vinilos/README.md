@@ -21,3 +21,5 @@ Presentado el esquema guia de como deberia quedar su codigo para responder a las
 ![Ejemplo](https://user-images.githubusercontent.com/68707840/226139131-0cf90afb-1896-4e7b-b0ca-129aacc47e3f.png)
 
 ## Analisis de mi solución
+
+- totalVinilos
