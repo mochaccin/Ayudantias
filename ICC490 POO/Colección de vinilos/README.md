@@ -22,7 +22,7 @@ Presentado el esquema guia de como deberia quedar su codigo para responder a las
 
 ## Analisis de mi solución
 
-### totalVinilos
+### totalVinilos()
 Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cual representa la coleccion de vinilos, y procedemos a recorrer cada elemento de la coleccion, sabemos que cada vinilo contiene 3 datos, el nombre del artista, el nombre del album, y el año de lanzamiento, por lo cual podemos comparar si estos datos son distintos de null, para saber si existe un vinilo en esta posicion o no, en caso de ser **distinto de null**, incrementamos el contador, y al terminar el ciclo devolvemos este contador como representante de la cantidad de vinilos en nuestra coleccion.
 ```
     public static int totalVinilos(String[][] vinilos) {
@@ -38,6 +38,16 @@ Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cua
     }
 ```
 
-### disponibles
+### disponibles()
 Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cual representa la coleccion de vinilos, y procedemos a recorrer cada elemento de la coleccion, sabemos que cada vinilo contiene 3 datos, el nombre del artista, el nombre del album, y el año de lanzamiento, por lo cual podemos comparar si estos datos son distintos de null, para saber si existe un vinilo en esta posicion o no, en caso de ser **igual a null**, incrementamos el contador, y al terminar el ciclo devolvemos este contador como representante de la cantidad de espacios disponibles en nuestra coleccion.
+```
+    public static int disponibles(String[][] vinilos) {
 
+        int contador = 0;
+
+        for (int i = 0; i < vinilos.length; i++) {
+            if (vinilos[i][0] == null) {contador++;}
+        }
+        return contador;
+    }
+```
