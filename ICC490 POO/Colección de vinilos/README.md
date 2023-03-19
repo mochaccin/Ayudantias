@@ -67,3 +67,19 @@ Le entregamos un Array de 2 dimensiones de tipo String a nuestra funcion, el cua
         }
     }
 ```
+
+### buscarArtista
+Le entregamos un Array de 2 dimensiones de tipo `String` a nuestra funcion, el cual representa la coleccion de vinilos, tambien le entregamos un valor de tipo `String` que representa el nombre del artista que deseamos buscar. Sabemos que cada vinilo posee 3 datos, y sabemos que entre estos datos se encuentre el nombre del artista del vinilo, tambien sabemos en que posicion se encuentra, por lo cual simplemente recorremos la coleccion, comparando el nombre del artista a buscar, con el nombre del artista de cada vinilo. En el caso de que se encuentre en la coleccion devolvemos `True`, en caso contrario al final del ciclo devolvemos `False`.
+```
+    public static boolean buscarArtista(String[][] vinilos, String artista){
+
+        for (int i = 0; i < vinilos.length; i++) {
+            if (vinilos[i][0] != null) {
+                if(vinilos[i][0].equals(artista)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+```
