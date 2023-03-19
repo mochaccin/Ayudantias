@@ -1,4 +1,4 @@
-# Ayudantias / Assistantships
+# Ayudantias
 
 El proposito de este repositorio es organizar el contenido de apoyo destinado a cada ayudantia de una forma simple y facil de acceder para las personas que deseen hacer uso de estos contenidos. Cada contenido pertenece a una carpeta nombrada a partir del curso al cual pertenezca, de esta forma me facilita la futura mantencion y organizacion del repositorio cuando esta sea necesaria, ademas de facilitar la navegacion entre cursos o contenidos a los alumnos que deseen hacer uso de este repositorio de apoyo.
 
